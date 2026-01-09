@@ -8,10 +8,10 @@ Here's a few things you should know.
 
 This is because linux uses a different file system to Windows, so your OS drive (generally the largest one thats not external) will need to be formatted during the install.
 
-**If you have files you would like to keep.
+**If you have files you would like to keep.**
 > I reccomend backing up any files you would like to keep somewhere else during the install. Purchasing an external storage to save any files you want is a great way to do this.
 
-**If you do not care about any files on the machine**
+**If you do not care about any of the files on the machine.**
 > You can safely ignore this and move to the next preparation step.
 
 ## Step -1: Get a 32GB or larger USB stick.
