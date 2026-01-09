@@ -4,7 +4,9 @@ It also assumes you can use a search engine to solve problems and don't suffer f
 
 Here's a few things you should know.
 
-## Step -2: Ask yourself if you have any files on your Windows machine that you would like to have after the switch. This is because linux uses a different file system to Windows, so your OS drive (generally the largest one thats not external) will need to be formatted during the install.
+## Step -2: Ask yourself if you have any files on your Windows machine that you would like to have after the switch. 
+
+This is because linux uses a different file system to Windows, so your OS drive (generally the largest one thats not external) will need to be formatted during the install.
 
 **If you have files you would like to keep.
 > I reccomend backing up any files you would like to keep somewhere else during the install. Purchasing an external storage to save any files you want is a great way to do this.
