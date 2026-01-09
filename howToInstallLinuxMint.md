@@ -8,11 +8,15 @@ This guide is made for people who know little about computers to help them insta
 ## Why Linux Mint?
 
 ## What is a Package Manager?
-A good article written to explain this can be found here.
+A good article written to explain this [can be found here](https://itsfoss.com/package-manager/).
 Note that Linux Mint uses the `apt` and `flatpak` package managers.
 
 ### Linux Mint uses apt and flatpak. What's the difference?
+The Linux Mint GUI software manager actually explains it in simple terms pretty well.
 
+![](./assets/packageManagersLinuxMint.png)
+
+For most software, installing the flatpak is better than the system (`apt`) package, because it is more up to date. There are some exceptions to this, like Steam.
 
 
 ## What is a UEFI BIOS?
@@ -22,6 +26,17 @@ In short, it stands for [**U**nified **E**xtensible **F**irmware **I**interface]
 That probably means nothing to you though and isn't very helpful. This is the case for most people, which is completely normal. Annoyingly, some people still call it the **BIOS**, though it should really be just called the **UEFI**. For the sake of clarity, in this guide it is reffered to as the **UEFI BIOS** for ease of description.
 
 The UEFI BIOS is the level of your computer below the Operating System and is generally built into your motherboard by your manufacturer. It takes form of a simple GUI that lets you decide things such as various core hardware functions and which drive to boot from. This will be important in booting a new Operating System.
+
+## Can I still play my games on Linux?
+yes, todo
+### WINE
+
+#### Winetricks GUI
+makes it easier
+
+### Steam Proton
+
+
 
 # Prerequisites
 This guide assumes you have a computer running Windows and would like to move to Linux Mint.
