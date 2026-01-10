@@ -4,8 +4,30 @@ This guide is made for people who know little about computers to help them insta
 # Common Terms and Questions
 
 ## What is a Linux?
+Linux is *technically* just the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)).  But when people say [Linux](https://en.wikipedia.org/wiki/Linux), they are generally reffering to a distribution, or "[**distro**"](https://en.wikipedia.org/wiki/Linux_distribution) of the [Linux Kernel](https://en.wikipedia.org/wiki/Linux_kernel).
+
+### The Linux Kernel
+
+### Distributions
+A distribution, or "distro", is generally an OS built off of the Linux Kernel, often utilizing GNU and FOSS components to make a desktop operating system. Different distros may be designed for different things and use different pieces of softwarev and have differing levels of ease of use.
+
+There may be distros designed for other things (like [OpenWRT](https://en.wikipedia.org/wiki/OpenWrt)), but that's beyond the scope of this guide. Here we will talk about desktop and user oriented distros.
 
 ## Why Linux Mint?
+
+### User Friendliness
+
+### Stability & Reliability
+
+### Less Terminal Required
+
+## Why command line?
+
+### Can't everything just be a GUI
+
+### Learning the command line is very helpful
+
+### Don't be afraid of it
 
 ## Why open source?
 See section on FOSS and SaaS.
@@ -38,9 +60,17 @@ The UEFI BIOS is the level of your computer below the Operating System and is ge
 
 ### SaaS kinda sucks
 
+SaaS stands for [Software as a Service](https://en.wikipedia.org/wiki/Software_as_a_service). Although sounding mundane, it is often a predatory system wherein you don't actually own anything, and don't know how the software you use works or what data it collects because it is closed source. Generally not ideal.
+
+> SaaS separates "the possession and ownership of software from its use."
+
+Examples of SaaS companies could be Adobe, Todo, and Todo.
+
 ### Closed source is dumb
+Imagine paying for a software and not even knowing what it does or how to fix it. It's an enigma. You have no way to know what it does without your permission, and the company randomly breaks stuff. Sound familiar? Microsoft Windows is a closed source SaaS system.
 
 ### Why open source is ideal
+Open source means that the source code for a piece of software is visible to the public. This means people can independently verify that it is safe and does not spy on you, plus people can contribute to a lot of open source projects to improve them.
 
 ### FOSS is freedom
 
