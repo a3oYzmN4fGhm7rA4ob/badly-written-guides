@@ -66,5 +66,53 @@ todo
 
 ## Flashing the .iso to the USB
 
-## Step 1: Accessing the UEFI BIOS
+# Step 1: Accessing the UEFI BIOS
 
+## Finding your UEFI BIOS key
+
+## Entering the UEFI BIOS
+
+# Step 2: Configuring the UEFI BIOS
+
+## Disabling certian unwanted settings
+
+### Fast boot
+
+### "Secure" boot
+
+## Changing the boot order
+
+## Save changes and restart
+
+# Step 3: Boot and Install
+
+## When you boot
+
+### If the standard boot doesn't work
+
+## The live image
+**JUST BECAUSE YOU BOOTED DOES NOT MEAN IT'S INSTALLED**
+
+## Installing Linux Mint
+
+### What if my wifi is not working/showing up on Linux?
+
+# Step 4: Post-install
+
+## Welcome Menu
+
+## Update Manager
+
+## Drivers (Very Important)
+
+### Contibuation from Step 3: What if I don't have wifi in linux but I do on windows?
+
+#### Fuck broadcom
+
+#### Installing proprietary Wifi drivers
+
+## Installing applications
+
+## Reccomendations from the author
+
+### Ublock Origin in Firefox
