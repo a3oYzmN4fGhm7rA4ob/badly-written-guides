@@ -7,6 +7,13 @@ This guide is made for people who know little about computers to help them insta
 
 ## Why Linux Mint?
 
+## Why open source?
+See section on FOSS and SaaS.
+
+### Is it dangerous to use open source systems?
+short answer no
+long answer no
+
 ## What is a Package Manager?
 A good article written to explain this [can be found here](https://itsfoss.com/package-manager/).
 Note that Linux Mint uses the `apt` and `flatpak` package managers.
@@ -27,6 +34,16 @@ That probably means nothing to you though and isn't very helpful. This is the ca
 
 The UEFI BIOS is the level of your computer below the Operating System and is generally built into your motherboard by your manufacturer. It takes form of a simple GUI that lets you decide things such as various core hardware functions and which drive to boot from. This will be important in booting a new Operating System.
 
+## What is "FOSS" and "SaaS"?
+
+### SaaS kinda sucks
+
+### Closed source is dumb
+
+### Why open source is ideal
+
+### FOSS is freedom
+
 ## Can I still play my games on Linux?
 yes, todo
 ### WINE
@@ -36,7 +53,11 @@ makes it easier
 
 ### Steam Proton
 
+## What if an application I use is not availible in Linux natively?
 
+### FOSS Alternatives (preferable)
+
+### WINE (if you must)
 
 # Prerequisites
 This guide assumes you have a computer running Windows and would like to move to Linux Mint.
