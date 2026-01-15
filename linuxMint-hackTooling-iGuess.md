@@ -411,6 +411,6 @@ KDE IRC client. Availbile on flathub.
 
 ### Channels
 
-[DeadOverflow (web pentesting and stuff](https://www.youtube.com/@deadoverflow)
+[DeadOverflow (web pentesting and stuff)](https://www.youtube.com/@deadoverflow)
 
 ## Written Guides
