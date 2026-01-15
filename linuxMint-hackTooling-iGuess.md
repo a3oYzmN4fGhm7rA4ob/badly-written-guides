@@ -129,6 +129,8 @@ A very versatile MITM proxy. An *essential* tool for intercepting requests and m
 
 A free tool instead of something like Burp Suite, and mitm could honestly be considered better in some regards.
 
+**Todo: install guide**
+
 ## arp-scan
 > install via apt
 
@@ -390,3 +392,25 @@ A powerful FOSS file server, in a single python file. For a detailed breakdown, 
 > https://konversation.kde.org/download.html
 
 KDE IRC client. Availbile on flathub.
+
+# Additional resources for ppl who are learining, about privacy and cybersec
+
+## YouTube
+
+### Videos
+
+[Wi-Fi Hacking Basics: Networking 101 For Ethical Hackers](https://www.youtube.com/watch?v=vxvAp9drxNg)
+
+[Network Hacking Basics: Ports, HTTPS and Certificates](https://youtu.be/2Swg_oPNXq8)
+
+[linux vs bill gates](https://youtu.be/KwnBZZ7_FGg)
+
+[“I Have Nothing to Hide” – The Dangerous Myth About Privacy](https://youtu.be/Hcqh0ZSza50)
+
+[I2P: A Comfy Guide (Connecting and Creating an I2P Website)](https://youtu.be/yOaSkXue5gE)
+
+### Channels
+
+[DeadOverflow (web pentesting and stuff](https://www.youtube.com/@deadoverflow)
+
+## Written Guides
