@@ -18,6 +18,7 @@ There may be distros designed for other things (like [OpenWRT](https://en.wikipe
 Linux Mint is a very user friendly distro. You can do most basic tasks without needing to use the command line. It's also very stable, and won't just break.
 
 ### User Friendliness
+It has full GUI that's capable of doing tasks without needing the terminal, which makes it more comfortable for refugees from Microsoft Windows that are not used to the command-line yet.
 
 ### Stability & Reliability
 
