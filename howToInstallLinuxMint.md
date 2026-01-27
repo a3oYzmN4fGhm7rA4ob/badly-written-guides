@@ -21,23 +21,17 @@ Linux Mint is a very user friendly distro. You can do most basic tasks without n
 It has full GUI that's capable of doing tasks without needing the terminal, which makes it more comfortable for refugees from Microsoft Windows that are not used to the command-line yet.
 
 ### Stability & Reliability
+Linux Mint is a stable and reliable distro that is focused on that rather than being bleeding-edge.
+It also comes with a handy *Timeshift* backup tool, so if you happen to break something, you can just roll back all the important system files that you broke.
 
 ### Less Terminal Required
-
-## Why command line?
-
-### Can't everything just be a GUI
-
-### Learning the command line is very helpful
-
-### Don't be afraid of it
+Linux Mint has many GUIs for doing most tasks, minimizing the need to use the command line, if at all. This is often a bonus for new users. However, learning the command line should be something most users do in time on their own.
 
 ## Why open source?
 See section on FOSS and SaaS.
 
 ### Is it dangerous to use open source systems?
-short answer no
-long answer no
+No. Code is reviwed and worked on by many developers around the world, and bugs are fixed quickly.
 
 ## What is a Package Manager?
 A good article written to explain this [can be found here](https://itsfoss.com/package-manager/).
@@ -50,10 +44,9 @@ The Linux Mint GUI software manager actually explains it in simple terms pretty 
 
 For most software, installing the flatpak is better than the system (`apt`) package, because it is more up to date. There are some exceptions to this, like Steam.
 
-
 ## What is a UEFI BIOS?
 
-In short, it stands for [**U**nified **E**xtensible **F**irmware **I**interface](https://en.wikipedia.org/wiki/UEFI) [**B**asic **I**nput **O**utput **S**ystem](https://en.wikipedia.org/wiki/BIOS)
+In short, it stands for [**U**nified **E**xtensible **F**irmware **I**nterface](https://en.wikipedia.org/wiki/UEFI) [**B**asic **I**nput **O**utput **S**ystem](https://en.wikipedia.org/wiki/BIOS)
 
 That probably means nothing to you though and isn't very helpful. This is the case for most people, which is completely normal. Annoyingly, some people still call it the **BIOS**, though it should really be just called the **UEFI**. For the sake of clarity, in this guide it is reffered to as the **UEFI BIOS** for ease of description.
 
@@ -76,10 +69,30 @@ Imagine paying for a software and not even knowing what it does or how to fix it
 Open source means that the source code for a piece of software is visible to the public. This means people can independently verify that it is safe and does not spy on you, plus people can contribute to a lot of open source projects to improve them.
 
 ### FOSS is freedom
+Controlling your software is important. Without that control, you only have the freedom that the company making it says is allowed. With FOSS, you can do whatever you want.
 
 ## Can I still play my games on Linux?
-yes, todo
+Yes.
+For some games, they have a release that is Native to Linux, and so will just run normally.
+In the case a game does not have a Native to Linux release, most users will utilize WINE and Steam Proton to play those games.
 ### WINE
+
+WINE is a compataiblity layer that translates Microsoft Windows function calls into POSIX-compliant function calls, with negligible performance overhead. It's not an emulator.
+
+#### Wait but how does it work?
+**The easiest way I can explain how WINE works is something like this:**
+
+*Note: These are not real functions and this is heavily simplified. I am just making an example.*
+
+
+Let's say Microsoft Windows has a function `OpenFile(name, path)`. It opens a file, and takes two arguments, the `name` of the file and the `path` to said file on the filesystem.
+
+Linux has a similar function `fOpen(location)`. This function also opens a file, but it has a different name and only takes one argument, `location`, which just points directly to where the file is on the filesystem.
+
+WINE translates between the two. So when a game built for Microsoft Windows is running via WINE, it would call `FileOpen(test.txt, C:\PATH\TO\FILE\)`. WINE will see this and make Linux do `fOpen(/path/to/file/test.txt)`, and return the result in a way the Microsoft Windows program can understand. 
+
+This is a very similified and unrealistic explanation, but it gets the point across.
+
 
 #### Winetricks GUI
 makes it easier
