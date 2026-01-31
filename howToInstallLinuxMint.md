@@ -74,8 +74,12 @@ Examples of SaaS companies could be Adobe, Todo, and Todo.
 ### Closed source is dumb
 Imagine paying for a software and not even knowing what it does or how to fix it. It's an enigma. You have no way to know what it does without your permission, and the company randomly breaks stuff. Sound familiar? Microsoft Windows is a closed source SaaS system.
 
+SaaS companies (like Microsoft) also have a record of knowing about significant security vulnerabilities, but not spending time to patch them until a massive hack happens because it saves them money in the short term.
+
 ### Why open source is ideal
 Open source means that the source code for a piece of software is visible to the public. This means people can independently verify that it is safe and does not spy on you, plus people can contribute to a lot of open source projects to improve them.
+
+If a bug or security issue is found, the devs are obligated to fix it via common sense. If they don't, someone will just make a fork where that bug is fixed and everyone will start using that instead.
 
 ### FOSS is freedom
 Controlling your software is important. Without that control, you only have the freedom that the company making it says is allowed. With FOSS, you can do whatever you want.
