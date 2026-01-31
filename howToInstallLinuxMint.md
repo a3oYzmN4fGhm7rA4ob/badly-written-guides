@@ -3,6 +3,15 @@ This guide is made for people who know little about computers to help them insta
 
 # Common Terms and Questions
 
+## Why switch?
+There are many reasons one may want to switch to a Linux based operating system.
+### Windows is ass
+For one, windows sucks. It's bloated, full of spyware that tracks your every move, has ads built into the OS, and is full of bloat. Searching a singular folder should not take 30 seconds. It dosen't on Linux.
+
+Windows is also closed source and paid, which is bad in itself. Imagine buying a car, and then when you open up the engine, instead there is just a few plugs and a giant black cube. That's what closed source software is like.
+### Care about your privacy
+Windows violates your privacy constantly. With recall screenshotting you, and it tracking whenever you start an app. Debloaters can only help so much. Why use an operating system designed to exploit the user for profit rather than working with them?
+
 ## What is a Linux?
 Linux is *technically* just the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)).  But when people say [Linux](https://en.wikipedia.org/wiki/Linux), they are generally reffering to a distribution, or "[**distro**"](https://en.wikipedia.org/wiki/Linux_distribution) of the [Linux Kernel](https://en.wikipedia.org/wiki/Linux_kernel).
 
