@@ -105,13 +105,14 @@ Linux has a similar function `fOpen(location)`. This function also opens a file,
 
 WINE translates between the two. So when a game built for Microsoft Windows is running via WINE, it would call `FileOpen(test.txt, C:\PATH\TO\FILE\)`. WINE will see this and make Linux do `fOpen(/path/to/file/test.txt)`, and return the result in a way the Microsoft Windows program can understand. 
 
-This is a very similified and unrealistic explanation, but it gets the point across.
+This is a very simplified and unrealistic explanation, but it gets the point across.
 
 
 #### Winetricks GUI
-makes it easier
+There is a GUI implementation of some WINE usage with the `winetricks` package. It also allows for some advanced configuration.
 
 ### Steam Proton
+Steam Proton is a fork of WINE made by Valve. It's the same technology that lets Windows native games run on the Steam deck, and Steam on Linux comes with it by default, which you can use to run your entire Steam Library. 
 
 ## What if an application I use is not availible in Linux natively?
 
@@ -145,7 +146,7 @@ makes it easier
 
 # Prerequisites
 This guide assumes you have a computer running Windows and would like to move to Linux Mint.
-It also assumes you can use a search engine to solve problems and don't suffer from general learned helplessness.
+It also assumes you can use a search engine to solve problems and don't suffer from general learned helplessness or critical thinking deficency.
 
 Here's a few things you should know.
 
