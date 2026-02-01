@@ -114,15 +114,22 @@ There is a GUI implementation of some WINE usage with the `winetricks` package. 
 ### Steam Proton
 Steam Proton is a fork of WINE made by Valve. It's the same technology that lets Windows native games run on the Steam deck, and Steam on Linux comes with it by default, which you can use to run your entire Steam Library. 
 
+If you want to see if a game will run on WINE/Proton, head over to `protondb` and check.
+
 ## What if an application I use is not availible in Linux natively?
 
 ### FOSS Alternatives (preferable)
+The first and ideal option here is to find a FOSS software that does a similar thing to what you need while being native to Linux.
 
 ### WINE (if you must)
+If a software does not have native Linux support, with some basic tinkering ypu can usually get it installed and running via WINE or [Winboat](https://www.winboat.app/) (which is like a mini virtual machine that can run any windows program seamlessly, but is not very good for games so it was not mentioned here).
 
 ## Can I use INSERT_SOFTWARE_NAME_HERE on Linux?
 
+Use your preffered search engine. If there is a Ubuntu or Linux Mint `.deb` package availible, or a flatpak, then you are good.
+
 ### WINE and Compatability Layers (See games section)
+You can use compatability layers to run non-native software.
 
 ### Using software that is hostile to your OS choice and why thats really not making the situation any better
 
@@ -130,7 +137,11 @@ Steam Proton is a fork of WINE made by Valve. It's the same technology that lets
 
 ## I need a software that does INSERT_THING_HERE on Linux! (FOSS Software Alternatives List)
 
-### Graphics
+### 2D Graphics
+
+### 3D Graphics
+
+### CAD
 
 ### Audio
 
@@ -143,6 +154,8 @@ Steam Proton is a fork of WINE made by Valve. It's the same technology that lets
 ### Text Editors
 
 ### Cloud Systems
+
+
 
 # Prerequisites
 This guide assumes you have a computer running Windows and would like to move to Linux Mint.
