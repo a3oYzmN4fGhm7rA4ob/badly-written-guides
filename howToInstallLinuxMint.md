@@ -1,6 +1,7 @@
 # Introduction
 This guide is made for people who know little about computers to help them install Linux Mint in a way they can understand.
 
+If you have a specific question, feel free to create an issue with the "Question" type in the repo. I'll try to answer them. Please be coherent in your asks, I don't want any question like "my screen looks weird" with a grainy image and no description.
 # Common Terms and Questions
 
 ## Why switch?
@@ -117,6 +118,30 @@ makes it easier
 ### FOSS Alternatives (preferable)
 
 ### WINE (if you must)
+
+## Can I use INSERT_SOFTWARE_NAME_HERE on Linux?
+
+### WINE and Compatability Layers (See games section)
+
+### Using software that is hostile to your OS choice and why thats really not making the situation any better
+
+### "But I need MS office for work/school!!!11!!"
+
+## I need a software that does INSERT_THING_HERE on Linux! (FOSS Software Alternatives List)
+
+### Graphics
+
+### Audio
+
+### Video
+
+### Documents
+
+### Coding
+
+### Text Editors
+
+### Cloud Systems
 
 # Prerequisites
 This guide assumes you have a computer running Windows and would like to move to Linux Mint.
