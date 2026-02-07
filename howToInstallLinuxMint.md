@@ -132,9 +132,10 @@ Use your preffered search engine. If there is a Ubuntu or Linux Mint `.deb` pack
 You can use compatability layers to run non-native software.
 
 ### Using software that is hostile to your OS choice and why thats really not making the situation any better
+Intentionally using software thats designed not natively for your OS kinda defeats the point of getting more support for said OS family.
 
 ### "But I need MS office for work/school!!!11!!"
-
+All MS office apps are availible in any modern browser as webapps. You can edit `.doc` and `.docx` files in zlibrr
 ## I need a software that does INSERT_THING_HERE on Linux! (FOSS Software Alternatives List)
 
 ### 2D Graphics
@@ -224,7 +225,7 @@ todo
 
 ## Drivers (Very Important)
 
-### Contibuation from Step 3: What if I don't have wifi in linux but I do on windows?
+### Continuation from Step 3: What if I don't have wifi in linux but I do on windows?
 
 #### Fuck broadcom
 
