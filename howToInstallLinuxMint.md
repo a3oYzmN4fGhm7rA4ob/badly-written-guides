@@ -207,8 +207,16 @@ Do what the step says. You will need this to create a bootable USB of Linux Mint
 
 todo
 ## Downloading Rufus
+Microsoft Windows does not come with a bootable USB creator, because they want to force you to stay in their system. That is why we must download the rufus tool, to create a Bootable USB.
+---
+The reason we need to make a Bootable USB is because we need to boot Linux Mint to install it. When your computer starts up, it looks through your drives and devices for any Operating Systems that it can boot, then decides which one i
+t should boot based on the boot order set in your UEFI BIOS. We need a temporary flash drive to boot off of, because right now Microsoft Windows takes up all the space, and Linux Mint is built to install from USB.
+---
+So for this step, go to the [rufus website here](https://rufus.ie/) and download it.
 
 ## Downloading the .iso file
+
+The second part needed is an *ISO Image* file. This basically contains a bunch of compressed information 
 
 ## Flashing the .iso to the USB
 
