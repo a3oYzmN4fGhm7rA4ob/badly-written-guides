@@ -7,4 +7,4 @@ A repo for guides I write in markdown format, so I can direct people here instea
 # Stuff for nerds
 
 ## Contributing
-Any helpful contributions are welcome as long as an LLM did not take part in any of the creation. If you would like to add your own guides, feel free to do so.
+Any helpful contributions are welcome as long as an LLM/LGM did not take part in any of the creation. If you would like to add your own guides, feel free to do so.
