@@ -176,7 +176,7 @@ Intentionally using software thats designed not natively for your OS kinda defea
 > *`xed` comes preinstalled with Linux Mint Cinnamon.*
 
 ### Email Client
-* [Thunderbird](https://www.thunderbird.net/)
+* [Thunderbird](https://www.thunderbird.net/) - Email Client made by Mozilla
 
 > *`Thunderbird` comes preinstalled with Linux Mint Cinnamon.*
 
