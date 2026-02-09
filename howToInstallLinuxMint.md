@@ -1,3 +1,4 @@
+[**Click here to go back to the main page**](./README.md)
 # Introduction
 This guide is made for people who know little about computers to help them install Linux Mint in a way they can understand.
 
