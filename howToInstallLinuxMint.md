@@ -6,12 +6,13 @@ If you have a specific question, feel free to create an issue with the "Question
 
 ## Why switch?
 There are many reasons one may want to switch to a Linux based operating system.
-### Windows is ass
-For one, windows sucks. It's bloated, full of spyware that tracks your every move, has ads built into the OS, and is full of bloat. Searching a singular folder should not take 30 seconds. It dosen't on Linux.
+### Microsoft Windows is generally just ass
+For one, Microsoft Windows sucks. It's bloated, full of spyware that tracks your every move, has ads built into the OS, and is full of bloat. Searching a singular folder should not take 30 seconds. It dosen't on Linux.
 
-Windows is also closed source and paid, which is bad in itself. Imagine buying a car, and then when you open up the engine, instead there is just a few plugs and a giant black cube. That's what closed source software is like.
+Microsoft Windows is also closed source and paid, which is bad in itself. Imagine buying a car, and then when you open up the engine, instead there is just a few plugs and a giant black cube. That's what closed source software is like.
+
 ### Care about your privacy
-Windows violates your privacy constantly. With recall screenshotting you, and it tracking whenever you start an app. Debloaters can only help so much. Why use an operating system designed to exploit the user for profit rather than working with them?
+Microsoft Windows violates your privacy constantly. With recall screenshotting you, and it tracking whenever you start an app. Debloaters can only help so much. Why use an operating system designed to exploit the user for profit rather than working with them?
 
 ## What is a Linux?
 Linux is *technically* just the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)).  But when people say [Linux](https://en.wikipedia.org/wiki/Linux), they are generally reffering to a distribution, or ["**distro**"](https://en.wikipedia.org/wiki/Linux_distribution) of the [Linux Kernel](https://en.wikipedia.org/wiki/Linux_kernel).
@@ -70,7 +71,7 @@ SaaS stands for [Software as a Service](https://en.wikipedia.org/wiki/Software_a
 
 > SaaS separates "the possession and ownership of software from its use."
 
-Examples of SaaS companies could be Adobe, Todo, and Todo.
+Examples of SaaS companies could be Adobe, Microsoft, and Todo.
 
 ### Closed source is dumb
 Imagine paying for a software and not even knowing what it does or how to fix it. It's an enigma. You have no way to know what it does without your permission, and the company randomly breaks stuff. Sound familiar? Microsoft Windows is a closed source SaaS system.
@@ -122,11 +123,11 @@ If you want to see if a game will run on WINE/Proton, head over to `protondb` an
 The first and ideal option here is to find a FOSS software that does a similar thing to what you need while being native to Linux.
 
 ### WINE (if you must)
-If a software does not have native Linux support, with some basic tinkering ypu can usually get it installed and running via WINE or [Winboat](https://www.winboat.app/) (which is like a mini virtual machine that can run any windows program seamlessly, but is not very good for games so it was not mentioned here).
+If a software does not have native Linux support, with some basic tinkering ypu can usually get it installed and running via WINE or [Winboat](https://www.winboat.app/) (which is like a mini virtual machine that can run any Microsoft Windows program seamlessly, but is not very good for games so it was not mentioned here).
 
 ## Can I use INSERT_SOFTWARE_NAME_HERE on Linux?
 
-Use your preffered search engine. If there is a Ubuntu or Linux Mint `.deb` package availible, or a flatpak, then you are good.
+Use your preffered search engine. If there is a Ubuntu or Linux Mint `.deb` package availible (`apt`), or a `flatpak`, then you are good.
 
 ### WINE and Compatability Layers (See games section)
 You can use compatability layers to run non-native software.
@@ -135,44 +136,66 @@ You can use compatability layers to run non-native software.
 Intentionally using software thats designed not natively for your OS kinda defeats the point of getting more support for said OS family.
 
 ### "But I need MS office for work/school!!!11!!"
-All MS office apps are availible in any modern browser as webapps. You can edit `.doc` and `.docx` files in zlibrr
-## I need a software that does INSERT_THING_HERE on Linux! (FOSS Software Alternatives List)
+**All MS office apps are availible in any modern browser as webapps. You do not need to download anything to use them.** If you need to, you can easily edit `.doc` and `.docx` files in LibreOffice easily, in addition to other prorietary document formats.
+
+## I need a software that does $INSERT_THING_HERE on Linux! (FOSS Software Alternatives List)
 
 ### 2D Graphics
+* [Krita](https://krita.org/) - Digital Art
+* [Inkscape](https://inkscape.org/) - Vector Graphics
+* [GNU Image Manipulation Program](https://www.gimp.org/downloads/) - Image editor similar to Adobe Photoshop
 
 ### 3D Graphics
+* [Blender](https://www.blender.org/) - Pretty much everything under the sun
 
 ### CAD
+* [FreeCAD](https://www.freecad.org/) - Parametric CAD 3D Modeler
 
 ### Audio
+* [Audacity](https://www.audacityteam.org/) - Audio Manipulation, Recording, and Editing
+* [LMMS](https://lmms.io/) - Fully Functional DAW
 
 ### Video
+* [Blender](https://www.blender.org/) - Video Editing
+* [Kdenlive](https://kdenlive.org/) - Video Editing
+* [Handbrake](https://handbrake.fr/) - Video Transcoder
 
 ### Documents
+* [LibreOffice](https://www.libreoffice.org/) - Full Office Suite
+  
+> *`LibreOffice` comes preinstalled with Linux Mint Cinnamon.*
 
 ### Coding
+* [neovim](https://neovim.io/) - Fork of `vim` designed for programming, can be made into an IDE
+* [Vscodium](https://vscodium.com/) - Visual Studio Code binaries but without the Microsoft Bullshit
 
 ### Text Editors
+* [vim](https://www.vim.org/) - Well known and respected text editor
+* [xed](https://github.com/linuxmint/xed) - Lightweight and simple text editor, similar to `Notepad` on Microsoft Windows.
 
-### Cloud Systems
+> *`xed` comes preinstalled with Linux Mint Cinnamon.*
 
+### Email Client
+* [Thunderbird](https://www.thunderbird.net/)
+
+> *`Thunderbird` comes preinstalled with Linux Mint Cinnamon.*
+
+### Misc
+* [copyparty](https://github.com/9001/copyparty) - Flexible and lightweight fileserver written in Python
 
 
 # Prerequisites
-This guide assumes you have a computer running Windows and would like to move to Linux Mint.
+This guide assumes you have a computer running Microsoft Windows and would like to move to Linux Mint.
 It also assumes you can use a search engine to solve problems and don't suffer from general learned helplessness or critical thinking deficency.
 
 Here's a few things you should know.
 
-## Step -2: Ask yourself if you have any files on your Windows machine that you would like to have after the switch. 
+## Step -2: Ask yourself if you have any files on your Microsoft Windows machine that you would like to have after the switch. 
 
-This is because Linux uses different file system(s) to Windows, so your OS drive (generally the largest one thats not external) will need to be formatted during the install.
+This is because Linux uses different file system(s) to Microsoft Windows, so your OS drive (generally the largest one thats not external) will need to be formatted during the install.
 
-**If you have files you would like to keep.**
-> I reccomend backing up any files you would like to keep somewhere else during the install. Purchasing an external storage to save any files you want is a great way to do this.
-
-**If you do not care about any of the files on the machine.**
-> You can safely ignore this and move to the next preparation step.
+**If you have files you would like to keep,** I reccomend backing up any files you would like to keep somewhere else during the install. Purchasing an external storage to save any files you want is a great way to do this.
+**If you do not care about any of the files on the machine,** you can safely ignore this and move to the next preparation step.
 
 ## Step -1: Get a 32GB or larger USB stick.
 Do what the step says. You will need this to create a bootable USB of Linux Mint, which you will use to easily install it. Linux Mint is a different operating system, not a Windows installer program.
