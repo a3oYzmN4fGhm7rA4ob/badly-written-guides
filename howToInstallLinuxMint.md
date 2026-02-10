@@ -139,7 +139,7 @@ The first and ideal option here is to find a FOSS software that does a similar t
 ### WINE (if you must)
 If a software does not have native Linux support, with some basic tinkering ypu can usually get it installed and running via WINE or [Winboat](https://www.winboat.app/) (which is like a mini virtual machine that can run any Microsoft Windows program seamlessly, but is not very good for games so it was not mentioned here).
 
-## Can I use INSERT_SOFTWARE_NAME_HERE on Linux?
+## Can I use $INSERT_SOFTWARE_NAME_HERE on Linux?
 
 Use your preffered search engine. If there is a Ubuntu or Linux Mint `.deb` package availible (`apt`), or a `flatpak`, then you are good.
 
