@@ -323,7 +323,9 @@ Linux Mint handles all its updates through the GUI Update Manager. Updating regu
 ![](./assets/updateManager.png)
 
 ## Drivers (Very Important)
-Installing drivers is important. Most hardware has drivers built into the Linux Kernel, but some may need to be installed seperately. Drivers are like an instruction manual for the computer on how to use the hardware. Without it, the computer can see the hardware, but has no idea how to use it.
+Installing drivers is important. Most hardware has drivers built into the Linux Kernel, but some may need to be installed seperately. Drivers are like an instruction manual for the computer on how to use the hardware. Without it, the computer can see the hardware, but has no idea how to use it. Linux Mint has a GUI driver manager to help you with installing most additional drivers.
+
+![](./assets/driverManager.png)
 
 ---
 
