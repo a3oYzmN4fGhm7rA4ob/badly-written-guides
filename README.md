@@ -4,6 +4,9 @@ A repo for guides I write in markdown format, so I can direct people here instea
 ---
 * [**How to install Linux Mint explained in reasonable language, for Microsoft Windows refugees and any others who may be interested**](./howToInstallLinuxMint.md)
 
+# Getting help
+If you have a question or are struggling with something in a guide, feel free to make an issue in this repo with the `HELP!` label, and I (or perhaps another contributor in the future) will help you figure out your issue.
+
 # Stuff for nerds
 
 ## Contributing
