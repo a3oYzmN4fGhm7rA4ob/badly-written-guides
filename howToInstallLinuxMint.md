@@ -95,6 +95,15 @@ Controlling your software is important. Without that control, you only have the 
 Yes.
 For some games, they have a release that is Native to Linux, and so will just run normally.
 In the case a game does not have a Native to Linux release, most users will utilize WINE and Steam Proton to play those games.
+
+---
+
+The only case that a game will not is if the developer is inherently anti-Linux or anti-open-source, and intentionally program their game to not work with compatability layers. In this case you best not be playing these games anyway. Sometimes, they are literally too lazy to check a box that enables Linux compatability. Literally.
+
+---
+
+If you want to check if a specific game will work, head over to [protondb](https://www.protondb.com/) and [Are We Anti-Cheat Yet?](https://areweanticheatyet.com/). If it does not, you best not be playing that game anyway because the company is a scumbag.
+
 ### WINE
 
 WINE is a compataiblity layer that translates Microsoft Windows function calls into POSIX-compliant function calls, with negligible performance overhead. It's not an emulator.
