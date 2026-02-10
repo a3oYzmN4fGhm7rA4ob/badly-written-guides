@@ -213,7 +213,13 @@ Microsoft Windows does not come with a bootable USB creator, because they want t
 ## Downloading the .iso file
 The second part needed is an *ISO Image* file. This basically contains a bunch of compressed information about an OS, that you can use with a tool like Rufus to flash to a USB into something that can be booted from.
 
+You will be downloading Linux Mint Cinnamon, which can be found here. Choose a mirror that will be fast for you.
+
 ## Flashing the .iso to the USB
+* Open up Rufus, and select your `.iso` file you downloaded.
+* Select your USB Drive as the target.
+* Hit "Start" and wait for it to finish.
+* When it finishes, congratulations. Move on to the next step.
 
 # Step 1: Accessing the UEFI BIOS
 
