@@ -28,8 +28,9 @@ A distribution, or "distro", is generally an OS built off of the Linux Kernel, o
 There may be distros designed for other things (like [OpenWRT](https://en.wikipedia.org/wiki/OpenWrt)), but that's beyond the scope of this guide. Here we will talk about desktop and user oriented distros.
 
 ## Why Linux Mint?
+This guide discusses installing Linux Mint.
 
-Linux Mint is a very user friendly distro. You can do most basic tasks without needing to use the command line. It's also very stable, and won't just break.
+[Linux Mint](https://linuxmint.com/) is a very user friendly distro. You can do most basic tasks without needing to use the command line. It's also very stable, and won't just break.
 
 ### User Friendliness
 It has full GUI that's capable of doing tasks without needing the terminal, which makes it more comfortable for refugees from Microsoft Windows that are not used to the command-line yet.
@@ -204,69 +205,129 @@ This is because Linux uses different file system(s) to Microsoft Windows, so you
 Do what the step says. You will need this to create a bootable USB of Linux Mint, which you will use to easily install it. Linux Mint is a different operating system, not a Windows installer program.
 
 # Step 0: Creating the Bootable USB 
-The reason you need to make a Bootable USB is because we need to boot Linux Mint to install it. When your computer starts up, it looks through your drives and devices for any Operating Systems that it can boot, then decides which one it should boot based on the boot order set in your UEFI BIOS. We need a temporary flash drive to boot off of, because right now Microsoft Windows takes up all the space, and Linux Mint is built to install from USB.
+The reason you need to make a Bootable USB is because you need to boot Linux Mint to install it. When your computer starts up, it looks through your drives and devices for any Operating Systems that it can boot, then decides which one it should boot based on the boot order set in your UEFI BIOS. You need a temporary flash drive to boot off of, because right now Microsoft Windows takes up all the space, and Linux Mint is built to install from USB.
 
-todo
 ## Downloading Rufus
 Microsoft Windows does not come with a bootable USB creator, because they want to force you to stay in their system. That is why you'll need to download the Rufus tool, to create a Bootable USB. Go to the [Rufus website here](https://rufus.ie/) and download it.
 
 ## Downloading the .iso file
 The second part needed is an *ISO Image* file. This basically contains a bunch of compressed information about an OS, that you can use with a tool like Rufus to flash to a USB into something that can be booted from.
 
-You will be downloading Linux Mint Cinnamon, which can be found here. Choose a mirror that will be fast for you.
+You will be downloading the ISO for Linux Mint Cinnamon, [which can be found here.](https://linuxmint.com/edition.php?id=326) Choose a mirror that will be fast for you.
 
 ## Flashing the .iso to the USB
+Actually flashing the USB is fairly simple.
 * Open up Rufus, and select your `.iso` file you downloaded.
-* Select your USB Drive as the target.
+* Select your USB Drive as the target. (The default settings it selects should work fine)
 * Hit "Start" and wait for it to finish.
 * When it finishes, congratulations. Move on to the next step.
 
 # Step 1: Accessing the UEFI BIOS
+Next, you need to access your computer's UEFI BIOS (discussed earlier), the level below the operating system. This is so that you can disable a few settings that will prevent Linux Mint from working, and tell the computer to boot from the USB you just flashed instead.
 
 ## Finding your UEFI BIOS key
+First, you need to know what keys to press on boot to open the UEFI BIOS instead of booting. This is determined by your motherboard manufacturer. For laptops is just the same as the company who made it, for desktops you may want to look inside or find out how to find your motherboard information in Microsoft Windows. The Key combination to press can usually be looked up online, or in your motherboard's manual in case of a desktop. On some devices it may say on the display when it boots what key to press. If it does not, consult the internet.
 
 ## Entering the UEFI BIOS
+Once you have found the UEFI BIOS key or keys to press (you may have to try a few different combinations), fully shut down your computer. Then, turn it back on and spam those keys as it boots. If Microsoft Windows boots, you have failed to enter the UEFI BIOS, turn it off and try again. If you instead see a screen that does not look like anything you recognize and has the words "BIOS" or "UEFI" somewhere, congratulations! You are in the BIOS. 
 
 # Step 2: Configuring the UEFI BIOS
+First, a few settings need to be configured.
 
 ## Disabling certian unwanted settings
+You will need to disable certian settings that will prevent Linux Mint from functioning.
 
 ### Fast boot
+Fast boot is a feature built into motherboards wherein Microsoft Windows does not fully shut down. This is because Microsoft Windows is so slow and bloated to boot, they have to cheat so that it does not take three minutes to boot. Obviously if part of Microsoft Windows is still loaded when we are trying to use Linux, that is a problem. Therefore, you will first need to navigate your UEFI BIOS settings. If you have searched all the menus and do not see a "Fast boot" option, then it probably does not exist on your motherboard and you can skip this step. If you see it, change it from `enabled` to `disabled`, in the case it is `enabled`.
 
 ### "Secure" boot
+Secure boot is another feature that is supposed to somehow protect you, but really locks you in to Microsoft. Microsoft works with companies to put this in most motherboards. Signing an OS for secure boot requires keys from Microsoft, so Linux does not and can't use it. It's supposedly to protect if your computer gets stolen, but nothing is stopping a determined criminal from just moving your storage to a different motherboard with secure boot disabled and analyzing it there.
+> Secure boot prevents the install of drivers not signed by Microsoft, such as those used by Linux.
+
+Anyways, it needs to be disabled. It will probably be located in the Boot or Security settings of your UEFI BIOS. find it, and disable it. Note that from this point onwards, Microsoft Windows will likely be unrecoverable if you have BitLocker enabled.
 
 ## Changing the boot order
+Finally, you need to change the boot order. This tells your computer which device to attempt to boot from first. You want it to boot from the USB first before Microsoft Windows. When Linux Mint installs, it will automatically put itself at the top of the order, so you do not have to worry about this except once.
+
+---
+
+For example, your boot order might look like this:
+|BOOT ORDER|
+|---|
+|Windows Boot Manager|
+|CD Disk|
+|Hard Disk|
+|USB Disk|
+
+---
+
+You will want to change it so the USB is on the top of the boot order, perhaps looking something like this.
+
+|BOOT ORDER|
+|---|
+|USB Disk|
+|Windows Boot Manager|
+|CD Disk|
+|Hard Disk|
+
 
 ## Save changes and restart
+Once you have adjusted the boot order, you can safely find the "Save Changes and Restart" (or similar wording) in your UEFI BIOS. Make sure you select the option to save changes. Then you can, well, save changes and restart your machine from the UEFI BIOS to boot Linux Mint.
 
 # Step 3: Boot and Install
+Now, you are going to boot Linux Mint as a Live Image, and install it.
 
 ## When you boot
+When you first boot, a menu will probably come up with a few options, one of them saying something like "Start Linux Mint Cinnamon". Navigate to that and press `ENTER`.
 
 ### If the standard boot doesn't work
+Try the same thing, but with the compatability mode boot. Feel free to make an issue in the repo here if you are still having trouble.
 
-## The live image
-**JUST BECAUSE YOU BOOTED DOES NOT MEAN IT'S INSTALLED**
+## The Live Image
+**JUST BECAUSE YOU BOOTED DOES NOT MEAN LINUX MINT IS INSTALLED.**
+Once you get to the desktop, you are inside what is known as a "Live Image". This is running only in memory, and nothing will be saved on reboot. Do not do anything here but proceed with the install. You may need to install additional software or drivers after installing Linux Mint itself for all your hardware to function fully. If you are having internet issues, read down to the step discussing it below.
 
 ## Installing Linux Mint
+Simply double-click the "Install Linux Mint" button in the top right corner, and the install window will pop up. Follow its instructions, it is simple. A few things to remember/follow are listed below, along with clarifications.
+
+* When it asks you if you want to install multimedia codedcs, check the box. Otherwise you will not be able to play some video and audio formats.
+* When the installer asks you if you want to keep Microsoft Windows or Erase drive and Install, select "Erase drive and install Linux Mint". You are leaving Microsoft's corporate shit behind. **MAKE SURE YOU HAVE THE RIGHT DRIVE SELECTED FOR THE INSTALL. You can use the built-in*****Disks*** **tool to help identify which one you want to install to. It will be the one with the Microsoft Windows NTFS partition.**
+
+
+* When the installer asks you for what seems like your location, it is not trying to spy on you. It simply wants to know your timezone, and you can click to set it.
+* Once the install is complete, click "Restart" in the installer to finish the install. The installer will then prompt you to remove the "installation medium" (this means the USB drive you used to install) and press `ENTER`. Do that.
+* Do not remove the drive at any point before that.
 
 ### What if my wifi is not working/showing up on Linux?
+Open up the Mint Menu in the Live Image before installing. Search for the *Driver Manager*, and open it. You will likely see a driver listed for a Broadcom device. Broadcom is a shitty company that does not provide open source drivers for their hardware, and thus they cannot be integrated into the Linux Kernel, and must be installed seperately. You will need some other source of internet to install them once Linux Mint is installed. In the case you are in this kind of situation, Purchase a Linux Compatible USB Wifi dongle before proceeding with the install. You will use this to provide a temporary Wifi connection enough to install the Broadcom driver. Once you have done so, you will be able to plug the dongle in to get Wifi until you can install the driver. *You cannot install drivers to a Live Image.*
+
+> The creator of this guide can personally reccomend [this dongle](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG).
 
 # Step 4: Post-install
+Upon reboot, log in! You've made it.
+**However, there are still a few more important things to do.**
 
 ## Welcome Menu
+The first time you login, Linux Mint will greet you with a welcome menu. Reading all of it's information is actually very helpful, and you should, and maybe do some of what it reccomends.
 
 ## Update Manager
+Linux Mint handles all its updates through the GUI Update Manager. Updating regularly is important. If you are prone to forget to update manually, I advise you turn on all of the update automation settings of the Update Manager, or setup a `cronjob` to update your system if you are more technical.
 
 ## Drivers (Very Important)
+Installing drivers is important. Most hardware has drivers built into the Linux Kernel, but some may need to be installed seperately. Drivers are like an instruction manual for the computer on how to use the hardware. Without it, the computer can see the hardware, but has no idea how to use it.
 
-### Continuation from Step 3: What if I don't have wifi in linux but I do on windows?
+---
 
-#### Fuck broadcom
+If you have an NVIDIA GPU, you will want to open up the *Driver Manager* and install the reccomended driver version. It may ask for authentication, and then you will need to restart after the install. **If you want your GPU to function normally, you will need to do this.**
 
-#### Installing proprietary Wifi drivers
+### Continuation from Step 3: What if I don't have Wifi in linux but I do on Windows?
+
+In a step similar to the NVIDIA GPU drivers, you will need to open up the *Driver Manager.* Using your USB Wifi dongle, you will be able to download and install the drivers required to make your adapter work, after which you can use your built-in Wifi.
+
+**Fuck Broadcom**
 
 ## Installing applications
+Applications can easily be installed from the *Software Manager* GUI.
 
 ## Reccomendations from the author
 
