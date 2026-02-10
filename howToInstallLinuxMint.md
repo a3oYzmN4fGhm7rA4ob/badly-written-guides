@@ -204,19 +204,14 @@ This is because Linux uses different file system(s) to Microsoft Windows, so you
 Do what the step says. You will need this to create a bootable USB of Linux Mint, which you will use to easily install it. Linux Mint is a different operating system, not a Windows installer program.
 
 # Step 0: Creating the Bootable USB 
+The reason you need to make a Bootable USB is because we need to boot Linux Mint to install it. When your computer starts up, it looks through your drives and devices for any Operating Systems that it can boot, then decides which one it should boot based on the boot order set in your UEFI BIOS. We need a temporary flash drive to boot off of, because right now Microsoft Windows takes up all the space, and Linux Mint is built to install from USB.
 
 todo
 ## Downloading Rufus
-Microsoft Windows does not come with a bootable USB creator, because they want to force you to stay in their system. That is why we must download the rufus tool, to create a Bootable USB.
----
-The reason we need to make a Bootable USB is because we need to boot Linux Mint to install it. When your computer starts up, it looks through your drives and devices for any Operating Systems that it can boot, then decides which one i
-t should boot based on the boot order set in your UEFI BIOS. We need a temporary flash drive to boot off of, because right now Microsoft Windows takes up all the space, and Linux Mint is built to install from USB.
----
-So for this step, go to the [rufus website here](https://rufus.ie/) and download it.
+Microsoft Windows does not come with a bootable USB creator, because they want to force you to stay in their system. That is why you'll need to download the Rufus tool, to create a Bootable USB. Go to the [Rufus website here](https://rufus.ie/) and download it.
 
 ## Downloading the .iso file
-
-The second part needed is an *ISO Image* file. This basically contains a bunch of compressed information 
+The second part needed is an *ISO Image* file. This basically contains a bunch of compressed information about an OS, that you can use with a tool like Rufus to flash to a USB into something that can be booted from.
 
 ## Flashing the .iso to the USB
 
@@ -270,3 +265,6 @@ The second part needed is an *ISO Image* file. This basically contains a bunch o
 ## Reccomendations from the author
 
 ### Ublock Origin in Firefox
+
+# HELP! I still can't install!
+Make an issue in the Repo and I will try to help you out best I can.
