@@ -184,6 +184,13 @@ Intentionally using software thats designed not natively for your OS kinda defea
 
 > *`Thunderbird` comes preinstalled with Linux Mint Cinnamon.*
 
+### Browsers
+* [Brave](https://brave.com/) - Chromium Broswer focused on Privacy with built in Ad blocking.
+* [Waterfox](https://www.waterfox.com/) - A fork of firefox with some additional functionality and less Mozilla stuff.
+* [Firefox](https://www.firefox.com/) - Everyone knows what Firefox is. It's FOSS.
+  
+> *Linux Mint Cinnamon comes with `Firefox` as it's default browser out of the box. Of course, you can replace or uninstall it any time. Unlike Microsoft Windows.*
+
 ### Misc
 * [copyparty](https://github.com/9001/copyparty) - Flexible and lightweight fileserver written in Python
 
@@ -313,12 +320,18 @@ The first time you login, Linux Mint will greet you with a welcome menu. Reading
 ## Update Manager
 Linux Mint handles all its updates through the GUI Update Manager. Updating regularly is important. If you are prone to forget to update manually, I advise you turn on all of the update automation settings of the Update Manager, or setup a `cronjob` to update your system if you are more technical.
 
+![](./assets/updateManager.png)
+
 ## Drivers (Very Important)
 Installing drivers is important. Most hardware has drivers built into the Linux Kernel, but some may need to be installed seperately. Drivers are like an instruction manual for the computer on how to use the hardware. Without it, the computer can see the hardware, but has no idea how to use it.
 
 ---
 
 If you have an NVIDIA GPU, you will want to open up the *Driver Manager* and install the reccomended driver version. It may ask for authentication, and then you will need to restart after the install. **If you want your GPU to function normally, you will need to do this.**
+
+---
+
+You may also need to install drivers for things like drawing tablets seperately. Instructions are usually found on various company websites, often it is simply a `.deb` package you have to download and double click to install. If that is still confusing to you, feel free to make a help request as an issue in this repo as previously stated.
 
 ### Continuation from Step 3: What if I don't have Wifi in linux but I do on Windows?
 
@@ -327,11 +340,15 @@ In a step similar to the NVIDIA GPU drivers, you will need to open up the *Drive
 **Fuck Broadcom**
 
 ## Installing applications
-Applications can easily be installed from the *Software Manager* GUI.
+Applications can easily be installed from the *Software Manager* GUI. Any additional appplications you need not availible here will usually have install instructions on their website if you simply search for them.
+
+![](./assets/softwareManager.png)
 
 ## Reccomendations from the author
+Stuff I reccomend you do.
 
 ### Ublock Origin in Firefox
+Install the Ublock Origin extension in Firefox. It's a FOSS adblocker, and will also protect you from malvertising.
 
 # HELP! I still can't install!
 Make an issue in the Repo and I will try to help you out best I can.
