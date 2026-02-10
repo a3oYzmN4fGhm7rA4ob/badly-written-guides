@@ -129,7 +129,7 @@ There is a GUI implementation of some WINE usage with the `winetricks` package. 
 ### Steam Proton
 Steam Proton is a fork of WINE made by Valve. It's the same technology that lets Windows native games run on the Steam deck, and Steam on Linux comes with it by default, which you can use to run your entire Steam Library. 
 
-If you want to see if a game will run on WINE/Proton, head over to `protondb` and check.
+If you want to see if a game will run on WINE/Proton, head over to [protondb](https://www.protondb.com/) and check.
 
 ## What if an application I use is not availible in Linux natively?
 
