@@ -16,6 +16,7 @@ Microsoft Windows is also closed source and paid, which is bad in itself. Imagin
 Microsoft Windows violates your privacy constantly. With recall screenshotting you, and it tracking whenever you start an app. Debloaters can only help so much. Why use an operating system designed to exploit the user for profit rather than working with them?
 
 ### Performance (and Battery Life)
+Linux, even through compatability layers, can give better gaming performance, due to lack of bloat and more efficent management of system resources. It can also increase your battery life because of similar reasons, and smarter power management. I noticed a near doubling of my Laptop's battery life personally when I switched.
 
 ## What is a Linux?
 Linux is *technically* just the [kernel](https://en.wikipedia.org/wiki/Kernel_(operating_system)).  But when people say [Linux](https://en.wikipedia.org/wiki/Linux), they are generally reffering to a distribution, or ["**distro**"](https://en.wikipedia.org/wiki/Linux_distribution) of the [Linux Kernel](https://en.wikipedia.org/wiki/Linux_kernel).
