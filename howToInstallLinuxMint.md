@@ -131,6 +131,9 @@ Steam Proton is a fork of WINE made by Valve. It's the same technology that lets
 
 If you want to see if a game will run on WINE/Proton, head over to [protondb](https://www.protondb.com/) and check.
 
+#### roblox
+why the fuck are you playing that game it literally supports child grooming. they block linux anyway
+
 ## What if an application I use is not availible in Linux natively?
 
 ### FOSS Alternatives (preferable)
