@@ -138,7 +138,7 @@ why the fuck are you playing that game it literally supports child grooming. the
 The first and ideal option here is to find a FOSS software that does a similar thing to what you need while being native to Linux.
 
 ### WINE (if you must)
-If a software does not have native Linux support, with some basic tinkering ypu can usually get it installed and running via WINE or [Winboat](https://www.winboat.app/) (which is like a mini virtual machine that can run any Microsoft Windows program seamlessly, but is not very good for games so it was not mentioned here).
+If a software does not have native Linux support, with some basic tinkering you can usually get it installed and running via WINE or [Winboat](https://www.winboat.app/) (which is like a mini virtual machine that can run any Microsoft Windows program seamlessly, but is not very good for games so it was not mentioned here).
 
 ## Can I use $INSERT_SOFTWARE_NAME_HERE on Linux?
 
