@@ -219,6 +219,9 @@ This is because Linux uses different file system(s) to Microsoft Windows, so you
 **If you have files you would like to keep,** I reccomend backing up any files you would like to keep somewhere else during the install. Purchasing an external storage to save any files you want is a great way to do this.
 **If you do not care about any of the files on the machine,** you can safely ignore this and move to the next preparation step.
 
+### Cloud storage migration
+If you use OneDrive or Google Drive for cloud storage and want to make the move, there are revrrse engineered clients for using both on Linux. However, this kind of defeats the point of moving for extra privacy. Instead, I reccomend getting an external SDD to download your OneDrive/Google Drive to, and then once that is done, switching to [Proton Drive](https://proton.me/drive), a privacy friendly and cheap cloud storage solution.
+
 ## Step -1: Get a 32GB or larger USB stick.
 Do what the step says. You will need this to create a bootable USB of Linux Mint, which you will use to easily install it. Linux Mint is a different operating system, not a Windows installer program.
 
