@@ -312,7 +312,7 @@ Once you get to the desktop, you are inside what is known as a "Live Image". Thi
 Simply double-click the "Install Linux Mint" button in the top right corner, and the install window will pop up. Follow its instructions, it is simple. A few things to remember/follow are listed below, along with clarifications.
 
 * When it asks you if you want to install multimedia codedcs, check the box. Otherwise you will not be able to play some video and audio formats.
-* When the installer asks you if you want to keep Microsoft Windows or Erase drive and Install, select "Erase drive and install Linux Mint". You are leaving Microsoft's corporate shit behind. **MAKE SURE YOU HAVE THE RIGHT DRIVE SELECTED FOR THE INSTALL. You can use the built-in*****Disks*** **tool to help identify which one you want to install to. It will be the one with the Microsoft Windows NTFS partition.**
+* When the installer asks you if you want to keep Microsoft Windows or Erase drive and Install, select "Erase drive and install Linux Mint". You are leaving Microsoft's corporate shit behind. **MAKE SURE YOU HAVE THE RIGHT DRIVE SELECTED FOR THE INSTALL. You can use the built-in** ***Disks*** **tool to help identify which one you want to install to. It will be the one with the Microsoft Windows NTFS partition.**
 
 
 * When the installer asks you for what seems like your location, it is not trying to spy on you. It simply wants to know your timezone, and you can click to set it.
