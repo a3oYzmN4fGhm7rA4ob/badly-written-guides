@@ -74,7 +74,7 @@ SaaS stands for [Software as a Service](https://en.wikipedia.org/wiki/Software_a
 
 > SaaS separates "the possession and ownership of software from its use."
 
-Examples of SaaS companies could be Adobe, Microsoft, and Todo.
+Examples of large SaaS companies could be Adobe and Microsoft.
 
 ### Closed source is dumb
 Imagine paying for a software and not even knowing what it does or how to fix it. It's an enigma. You have no way to know what it does without your permission, and the company randomly breaks stuff. Sound familiar? Microsoft Windows is a closed source SaaS system.
