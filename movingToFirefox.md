@@ -1,8 +1,22 @@
 # Introduction
+Welcome to the guide. I dunno
 
 # Why use firefox
+## Google sucks
 
-# Search engine vs browser
+## Privacy
+
+## Freedom
+
+## FOSS
+todo: link to linuxmint guide section on FOSS and SASS
+
+# Common Info & Misconceptions
+## Search engine vs Browser
+### Search engine
+### Browser
+## "But I can't use $INSERT_GOOGLE_SERVICE_HERE on firefix!!!11!"
+wrong lmao
 
 # Installing
 
