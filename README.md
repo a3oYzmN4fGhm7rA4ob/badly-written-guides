@@ -13,3 +13,6 @@ If you have a question or are struggling with something in a guide, feel free to
 
 ## Contributing
 Any helpful contributions are welcome as long as an LLM/LGM did not take part in any of the creation. If you would like to add your own guides, feel free to do so.
+
+## LLM policy
+No LLMs will ever be used in the making of these guides. Contributions by LLMs or even partially LLM-assisted will not be accepted.
