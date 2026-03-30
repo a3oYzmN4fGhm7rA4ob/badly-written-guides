@@ -1,5 +1,4 @@
-1. Go to [here (mitmproxy website)](https://docs.mitmproxy.org/stable/overview/installation/), and download the linux binaries.
-
+1. Go to [here (mitmproxy website)](https://docs.mitmproxy.org/stable/overview/installation/), and download the Linux binaries.
 
 
 2. Extract them to your home folder.
