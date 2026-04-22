@@ -19,6 +19,19 @@ EXAMPLEUSER@computer:/home/EXAMPLEUSER$
 ```
 Tip: You can also use `cd ..` to go back one directory in the working directory.
 
+## ls
+`ls $TARGET_DIR` -- Lists everything in a directory.
+```
+maria@laptop:~$ ls
+Documents  Downloads  Videos  Pictures  starsector  Python
+```
+```
+maria@laptop:~$ ls /home/maria/Documents
+doc1. odt  notes.txt
+```
+Tip: you can add the modifier `-a`, as in `ls -a`. to also show "hidden" files and folders. That is, those with a `.` at the start of their name, such as `.local` or `.steam` or `.bashrc`.
+
+
 # Advanced Commands
 
 # Application-specific Commands (package managers, etc)
